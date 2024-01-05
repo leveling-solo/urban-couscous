@@ -1,0 +1,75 @@
+@media only screen and (max-width: 600px) {
+    .footer-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: wheat;
+        height:auto;
+        padding: 0rem;
+    }
+    .contact-us {
+        margin-left: 8vw;
+        margin-bottom: 3rem;
+    }
+    .contact-us > p{
+        font-size: 1.3rem;
+        margin: 1rem;
+    }
+    .footer-logo > img{
+        height: 10rem;
+        margin-left: 0vw;
+        margin-right: 0rem;
+        margin-bottom: 3rem;
+    }
+    .subscribe{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .subscribe >h1{
+        margin-bottom: 2rem;
+        align-self: flex-start;
+        margin-left: 23vw;
+        
+    }
+    .subscribe > p{
+        font-size: 1.2rem;
+        width: 50%;
+    }
+    .subscribe > button{
+        margin-top: 1.5rem;
+        padding: 1rem 1rem;
+        font-size: 1rem;
+        align-self: flex-start;
+        margin-left: 23vw;
+        margin-bottom: 1rem;
+    }
+    .footer-handle-list{
+        background-color: rebeccapurple;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+    }
+    .footer-media-list > li > a{
+        font-size: 1.6rem;
+    }
+    .footer-media-list > li:hover{
+        width: 3rem;
+        height: 3rem;
+        padding-top: 0rem;
+    }
+    .copyright{
+        text-align: center;
+        display: flex;  
+        flex-direction: column;
+        justify-content: center;
+        font-size: 1.2rem;
+    }
+    .copyright > p{
+        text-shadow: 1px 3px 5px red;
+    }
+}

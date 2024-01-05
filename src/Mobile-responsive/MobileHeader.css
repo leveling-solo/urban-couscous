@@ -1,0 +1,164 @@
+@media only screen and (max-width: 600px) {
+
+    body {
+        width: 100%;
+    }
+
+    .box1 {
+        background: url("../images/heaader\ background.jpeg"), no-repeat;
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+    }
+
+    #typingText {
+        font-size: 4vw;
+        margin-top: 3vw;
+    }
+
+    .about-heading{
+        display: flex ; 
+        flex-direction: column;
+        justify-content: center;
+        margin: 0rem;
+        height: 100vw;
+    }
+    
+    .about-heading >img{
+        height:30vw;
+        width: 25vh;
+        margin-left: 19vw;
+        margin-top: 12vh;
+        object-fit: contain;
+        padding: 0rem;
+    }
+    
+    .media-handle-container{
+        color: white;
+        display: inline-block;
+        width: 60vw;
+        margin-left: 19vw;
+    }
+    
+    @font-face {
+        font-family: Arizona;
+        src: url("../font/White\ Milk.otf");
+    }
+    .media-handle-container > h2{
+        font-size: 8vw;
+        font-family: Arizona;
+        color: white;
+        letter-spacing: 0.1rem;
+        width: 38vw;
+    }
+    
+    .media-handle-list   {
+        display: flex;
+        justify-content: space-around;
+        font-size: 6vw;
+        width: 33vw;
+    }
+    .media-handle-list > li{
+     list-style: none;
+     width: 3rem;
+     height: 3rem;
+     text-align: center;
+     padding-top: 0.4rem;
+    
+    }
+    .media-handle-list > li:first-child > a{
+        color: blue;
+    }
+    .media-handle-list > li:nth-child(2) > a{
+        color: aqua;
+    }
+    .media-handle-list > li:nth-child(3) > a{
+     color: rgb(121, 235, 14);
+    }
+    .media-handle-list > li:last-child > a{
+        color: yellow;
+       }
+    
+    button{
+        padding: 1rem 0.5rem;
+
+        font-size: 1.2rem;
+        margin-top: 3rem;
+        background-color: yellow;
+        border: none;
+    }
+    
+    /* css for element where we can hover it from start */
+    
+   
+    
+    .media-handle-list> li:hover{
+        border-radius: 50%;
+     background-color: white;   
+        }
+    .media-handle-list > li:nth-child(2) > a:hover{
+        color: black;
+    }
+    .media-handle-list > li:nth-child(3) > a:hover{
+        color: red;
+    }
+    .media-handle-list > li:nth-child(4) > a:hover{
+        color: red;
+    }
+    
+    
+    .btn:hover{
+    color: rgba(255, 255, 255,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    }
+    
+    /* animation for the headers */
+    
+    
+
+    /* for  list  css   */
+    .listButton {
+        font-size: 2.5rem;
+        cursor: pointer;
+        margin-right: 0.4rem;
+        margin-top: 0.6rem;
+    }
+
+    .nav {
+        position: relative;
+
+    }
+
+    .navLinks {
+        background-color: black;
+        height: 45rem;
+        width: 50vw;
+    }
+
+    .navLinks>li {
+        list-style: none;
+        margin: 0.7rem;
+    }
+
+    @font-face {
+        font-family: Arizona;
+        src: url("../font/Arizona.ttf");
+    }
+
+    .navLinks>li>a {
+        text-decoration: none;
+        font-size: 2rem;
+        line-height: 4rem;
+        color: white;
+        font-family: Arizona;
+    }
+
+    .navLinks>li:hover {
+        background-color: rgb(214, 109, 226);
+        color: white;
+        padding-left: 2rem;
+        transition: padding-left 0.5s ease;
+    }
+
+    /* ends here */
+}

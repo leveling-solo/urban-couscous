@@ -1,0 +1,122 @@
+@media only screen and (max-width: 600px) {
+    .part2-container {
+        display: grid;
+        padding-left: 9vw;
+        padding-right: 7vw;
+    }
+    
+    .part2-box {
+        width:100%;
+        height: auto;
+        position: relative;
+        color: white;
+        text-shadow: 4px 9px 5px black;
+    }
+    
+    .about-imgs {
+        position: absolute;
+        bottom: 70vh !important;
+    }
+    
+    .about-imgs>h3 {
+        font-size: 2.9rem;
+        text-align: center;
+        font-family:monospace;
+    }
+    
+    .about-imgs>p {
+        font-size: 1.6rem;
+        text-align: justify;
+        padding: 2.4rem;
+        line-height: 1.7rem;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+   
+    
+    /* images width and height */
+    
+    .part2-box> :first-child {
+        width: 100%;
+        height: 80vh;
+        padding: 0rem;
+        object-fit: cover;
+    }
+    
+    .part2-box> :last-child {
+        width: 100%;
+        height: 70vh;
+        padding: 0rem;
+        object-fit: cover;
+    
+    }
+    
+    .small-Images-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: auto;
+    }
+
+    .small-Images-container> :first-child {
+        width: 100%;
+        height: auto;
+        padding: 0rem;
+        padding-top: 0.5rem;
+
+        object-fit: cover;
+    }
+    
+    .small-Images-container> :nth-child(2) {
+        width: 100%;
+        height: auto;
+        padding: 0rem;
+        padding-top: 0.5rem;
+        object-fit: cover;
+    
+    }
+    
+    .small-Images-container> :last-child {
+        width: 100%;
+        height: auto;
+        padding: 0rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.7rem;
+        object-fit: cover;
+    
+    }
+    .big-image-container> :first-child {
+        width: 100%;
+        height: 60vh;
+        padding: 0rem;
+        object-fit: cover;
+
+    }
+    
+    .last-image> :first-child {
+        width: 100%;
+        height: 60vh;
+        padding: 0rem;
+        padding-top: 0.5rem;
+
+        object-fit: cover;
+    }
+    
+    .about-image-info {
+        position: absolute;
+        bottom: -2rem;
+        height: 30vh !important;
+    }
+    .about-image-info > h3{
+        font-size: 8vw;
+        margin-left: 3vw;
+        font-family:'Courier New', Courier, monospace;
+    }
+    
+    .about-image-info >p{
+    width: 100%;
+    height: 10vh;
+    font-size: 1.4rem;
+    padding: 1.5vw;
+    }
+}

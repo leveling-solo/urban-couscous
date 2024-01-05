@@ -1,0 +1,57 @@
+@media only screen and (min-width: 601px) and (max-width: 820px){
+
+.part6-image-container {
+        display: flex;
+        color: white;
+        margin-left: 5rem;
+        margin-right: 2rem;
+        margin-bottom: 4rem;
+        align-content: space-between;
+    }
+    
+    .part6-image-container>img {
+        height: 10rem;
+        width: 10rem;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-top: 2rem;
+    }
+    .part6-text-container{
+        font-size: 1rem;
+        text-align: justify;
+        line-height: 1.1rem;
+        padding : 0rem !important ; 
+    }
+    .part6-text-container > h4{
+        font-size: 2rem;
+        margin: 1rem;
+        margin-left: 4rem;
+        padding-top: 1rem;
+    }
+    .part6-text-container > p{
+        margin-left: 4rem;
+        padding-top: 1rem;
+    }
+    
+    
+    /* animation for second  */
+    .part6-text-container > .p{
+        margin :0.01rem;
+        margin-right: 4rem;
+        margin-top: 2rem;
+
+    }
+    
+    .part6-text-container > .h{
+        margin :0.01rem;
+        margin-top: 1rem;
+
+    
+    }
+    
+    .part6-container > img{
+        height: 25rem;
+        width: 100%;
+        object-fit: cover;
+    }
+}

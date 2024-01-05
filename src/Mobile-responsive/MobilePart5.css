@@ -1,0 +1,65 @@
+@media only screen and (max-width: 600px) {
+    .part5-container {
+        width: auto;
+        height: 100%;
+        color: white;
+    }
+    
+    .part5-box{
+        display: flex;
+        flex-direction: column;
+    }
+    .part5-imageContainer > img{
+        height: 160vh;
+        width: 100%;
+        object-fit: cover;
+        opacity: 0.5;
+         z-index: -999;
+         position: absolute;
+    }
+    
+    .part5-text-Container{
+        width: 100%;
+       
+    }
+    .part5-text-Container>h1 {
+        font-size: 2.4rem;
+        font-family: 'Courier New', Courier, monospace;
+        padding-bottom: 3rem;
+        
+    
+    }
+    
+    .part5-text-Container>p {
+        font-size: 1.3rem;
+        line-height: 2rem;
+        text-align: justify;
+        padding-right: 0rem;
+    
+    }
+    .part5-text-Container> button{
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        padding:1rem 1rem ; 
+    }
+    .part5-box{
+        display: flex;
+        justify-content: space-around;
+        padding-left: 8vw;
+        padding-right: 8vw;
+        padding-top: 5rem;
+    }
+    
+    
+    .part5-list-container{
+    font-size: 1.3rem;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    }
+  .part5-list-container >ul > li{
+    margin: 0.8rem;
+    width: 100%;
+    padding-right: 2vw;
+    text-align: justify;
+  }  
+} 

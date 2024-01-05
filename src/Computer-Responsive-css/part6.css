@@ -1,0 +1,47 @@
+.part6-image-container {
+    display: flex;
+    color: white;
+    margin-left: 10rem;
+    margin-right: 13rem;
+    margin-bottom: 4rem;
+    align-content: space-between;
+}
+
+.part6-image-container>img {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.part6-text-container{
+    font-size: 1.3rem;
+    text-align: justify;
+    line-height: 1.5rem;
+}
+.part6-text-container > h4{
+    font-size: 2rem;
+    margin: 1rem;
+    margin-left: 11rem;
+}
+.part6-text-container > p{
+    margin-left: 11rem;
+}
+
+
+/* animation for second  */
+.part6-text-container > .p{
+    margin :0.01rem;
+    margin-right: 11rem;
+}
+
+.part6-text-container > .h{
+    margin :0.01rem;
+    margin-top: 1rem;
+
+}
+
+.part6-container > img{
+    height: 25rem;
+    width: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,54 @@
+.part5-container {
+    width: auto;
+    height: 33rem;
+    color: white;
+}
+
+.part5-box{
+    display: flex;
+    flex-direction: row;
+}
+.part5-imageContainer > img{
+    height: 30rem;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+     z-index: -999;
+     position: absolute;
+}
+
+.part5-text-Container{
+    width: 50rem;
+   
+}
+.part5-text-Container>h1 {
+    font-size: 2.4rem;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 3rem;
+    
+
+}
+
+.part5-text-Container>p {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    text-align: justify;
+    padding-right: 12rem;
+
+}
+.part5-text-Container> button{
+    margin-top: 1rem;
+}
+.part5-box{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10rem;
+    padding-right: 12rem;
+    padding-top: 5rem;
+}
+
+
+.part5-list-container{
+font-size: 1.3rem;
+margin-top: 5rem;
+}

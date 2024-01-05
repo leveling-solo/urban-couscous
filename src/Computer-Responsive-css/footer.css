@@ -1,0 +1,52 @@
+.footer-box{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: wheat;
+    height: 30rem;
+}
+.contact-us {
+    margin-left: 11rem;
+    margin-bottom: 3rem;
+}
+.contact-us > p{
+    font-size: 1.3rem;
+    margin: 1rem;
+}
+.footer-logo > img{
+    height: 10rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+}
+.subscribe{
+    width: 27rem;
+    height: 15rem;
+}
+.subscribe >h1{
+    margin-bottom: 2rem;
+}
+.subscribe > p{
+    font-size: 1.2rem;
+}
+.subscribe > button{
+    margin-top: 1.5rem;
+    font-size: 1rem;
+}
+.footer-handle-list{
+    background-color: rebeccapurple;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+.copyright{
+    text-align: center;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2rem;
+}
+.copyright > p{
+    text-shadow: 1px 3px 5px red;
+}

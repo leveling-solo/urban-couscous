@@ -1,0 +1,51 @@
+.part3-container{
+ display: flex; 
+ flex-direction: column;
+ color: white;
+ height: auto;
+}
+.part3-box{
+    margin-left: 10rem;
+    margin-right: 12rem;
+    margin-top: 3rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size:1.5rem;   
+     
+}
+.part3-box >p{
+    width: 100%;
+    text-align: justify;
+    line-height: 2rem;
+}
+.part3-box2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 10rem;
+    margin-right: 12rem;
+}
+.part3-image-box{
+    width: 600px;
+    height:40rem;
+    display: flex;
+    flex-direction: column;
+}
+.map{
+    width: 600px;
+    height: 400px ;
+    padding-left: 1rem;
+}
+.part3-image-box > p{
+    padding: 1rem;
+    font-size: 1.2rem;
+    text-align: justify;
+    line-height: 2rem;
+}
+.button-box > button{
+    margin: 1rem;
+    margin-top: 1rem;
+    padding: 1rem 2.5rem;
+}

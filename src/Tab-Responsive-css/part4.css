@@ -1,0 +1,46 @@
+@media only screen and (min-width: 601px) and (max-width: 820px){
+.part4-container {
+        width: auto;
+        height: 40rem;
+        color: white;
+    }
+    
+    .part4-imageContainer > img{
+        height: 40rem;
+        width: 100%;
+        object-fit: cover;
+        opacity: 0.5;
+         z-index: -999;
+         position: absolute;
+    }
+    .part4-container>h1 {
+        padding: 2rem;
+        font-size: 2.4rem;
+        font-family: 'Courier New', Courier, monospace;
+        padding-left: 5rem;
+    
+    }
+    
+    .part4-container>p {
+        width:100%;
+        font-size: 1.3rem;
+        line-height: 2rem;
+        text-align: justify;
+        padding: 0.3rem;
+        padding-left: 5rem;
+    }
+    
+    .part4-box{
+        display:grid;
+        grid-template-columns: repeat(2 ,1fr);
+        gap: 1rem;
+        margin: 0rem;
+        padding: 0rem;
+    }
+    .animation-box{
+        text-align: center;
+    }
+    .animation-box > h1{
+        font-size: 6rem;
+    }
+}

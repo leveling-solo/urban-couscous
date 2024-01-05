@@ -1,0 +1,107 @@
+.part2-container {
+    display: flex;
+    padding-left: 10rem;
+}
+
+.part2-box {
+    width: 400px;
+    height: auto;
+    position: relative;
+    color: white;
+    text-shadow: 4px 9px 5px black;
+}
+
+.about-imgs {
+    position: absolute;
+    bottom: -14rem;
+}
+
+.about-imgs>h3 {
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+.about-imgs>p {
+    font-size: 1.2rem;
+    text-align: justify;
+    padding: 2.4rem;
+    line-height: 1.7rem;
+}
+
+.small-Images-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 62.3rem;
+}
+
+/* images width and height */
+
+.part2-box> :first-child {
+    width: 400px;
+    height: 600px;
+    padding: 0.5rem;
+    object-fit: cover;
+}
+
+.part2-box> :last-child {
+    width: 400px;
+    height: 400px;
+    padding: 0.5rem;
+    object-fit: cover;
+
+}
+
+.small-Images-container> :first-child {
+    width: 400px;
+    height: 300px;
+    padding: 0.5rem;
+    object-fit: cover;
+}
+
+.small-Images-container> :nth-child(2) {
+    width: 400px;
+    height: 300px;
+    padding: 0.5rem;
+    object-fit: cover;
+
+}
+
+.small-Images-container> :last-child {
+    width: 400px;
+    height: 300px;
+    padding: 0.5rem;
+    padding-bottom: 0.7rem;
+    object-fit: cover;
+
+}
+
+.big-image-container> :first-child {
+    width: 370px;
+    height: 400px;
+    padding: 0.5rem;
+    object-fit: cover;
+
+
+}
+
+.last-image> :first-child {
+    width: 370px;
+    height: 592px;
+    object-fit: cover;
+    padding: 0.5rem;
+}
+
+.about-image-info {
+    position: absolute;
+    bottom: -15rem;
+}
+.about-image-info > h3{
+    font-size: 2rem;
+}
+
+.about-image-info >p{
+width: 22rem;
+height: auto;
+font-size: 1.1rem;
+}

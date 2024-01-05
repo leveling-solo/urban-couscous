@@ -1,0 +1,38 @@
+.part1-container {
+    display: flex;
+    margin: 3rem;
+    justify-content: space-around;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.part1-box {
+    height: 390px;
+    width: 330px;
+    display: flex;
+    flex-direction:column; 
+    justify-content: space-around;
+    align-items: flex-start;
+    color: white;
+    padding-left: 2.2rem;
+    
+}
+
+.part1-box > p{
+    font-size: 1.3rem;
+    text-align: justify;
+    line-height: 2.4rem;
+    margin-top: 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.image-container>img {
+    height: 390px;
+    width: 330px;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}

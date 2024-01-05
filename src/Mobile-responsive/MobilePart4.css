@@ -1,0 +1,52 @@
+@media only screen and (max-width: 600px) {
+    .part4-container {
+        width: 100%;
+        height: auto;
+        color: white;
+    }
+    
+    .part4-imageContainer > img{
+        height: 148.9vh;
+        width: 100%;
+        object-fit: cover;
+        opacity: 0.5;
+         z-index: -999;
+         position: absolute;
+    }
+    .part4-container>h1 {
+        padding: 2rem;
+        font-size: 2.4rem;
+        font-family: 'Courier New', Courier, monospace;
+        padding-left: 8vw;
+        padding-right: 8vw;
+    }
+    
+    .part4-container>p {
+        padding: 2rem;
+        padding-left: 8vw;
+        font-size: 1.3rem;
+        line-height: 2rem;
+        text-align: justify;
+        padding-right:8vw;
+    
+    }
+    
+    .part4-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-left: 8vw;
+        padding-right: 8vw;
+        padding-top:0rem;
+    }
+    .animation-box{
+        text-align: center;
+    }
+    .animation-box > h1{
+        font-size: 6rem;
+        margin:0 ;
+    }   
+    .animation-box{
+         margin: 1rem;
+    }
+}

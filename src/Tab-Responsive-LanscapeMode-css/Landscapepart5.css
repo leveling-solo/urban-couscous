@@ -1,0 +1,74 @@
+@media only screen and (min-width: 821px) and (max-width: 1180px)
+{
+    .part5-container {
+        width: auto;
+        height: 40rem;
+        color: white;
+        padding: 0rem !important;
+
+    }
+    
+    .part5-box{
+        display: flex;
+        flex-direction: row;
+    }
+    .part5-imageContainer > img{
+        height: 40rem;
+        width:100%;
+        object-fit: cover;
+        opacity: 0.9;
+         z-index: -999;
+         position: absolute;
+    }
+    
+    .part5-text-Container{
+        width: 50rem;
+        margin: 0rem !important;
+        height: 35rem;        
+       
+    }
+    .part5-text-Container>h1 {
+        font-size: 2rem;
+        font-family: 'Courier New', Courier, monospace;
+        padding-bottom: 1rem;
+        margin-left: 8rem;
+        width: 100%;
+        text-shadow: 5px 9px 11px black;
+
+    }
+    
+    .part5-text-Container>p {
+        font-size: 1.2rem;
+        line-height: 2rem;
+        text-align: justify;
+        padding-right: 1.5rem;
+        margin-left: 8rem;  
+        margin-top: 9rem;  
+        width: 36rem;
+    }
+    .part5-text-Container> button{
+        margin-top: 1rem;
+        padding: 0.4rem 0.45rem;
+        margin-left: 8rem;
+    }
+    .part5-box{
+        display: flex;
+        justify-content: space-around;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        padding-top: 5rem;
+
+    }
+    .part5-list-container{
+    font-size: 1.1rem;
+    margin-top: 8.7rem; 
+    line-height: 1.5rem;
+    text-shadow: 5px 9px 11px black;
+    }
+    
+       
+    .part5-list-container > ul > li{
+        margin: 0.4rem;
+
+    }
+}
